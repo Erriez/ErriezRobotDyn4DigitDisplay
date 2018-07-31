@@ -1,0 +1,32 @@
+#######################################
+# RobotDyn 4-Digit LED Display library for Arduino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+RobotDyn4DigitDisplay	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+rawDigit	KEYWORD2
+digit	KEYWORD2
+doubleDots	KEYWORD2
+time	KEYWORD2
+dec	KEYWORD2
+hex	KEYWORD2
+overflow	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+display	KEYWORD1
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SEGMENTS_MINUS	LITERAL1
+SEGMENTS_DEGREE	LITERAL1
+SEGMENTS_CELSIUS	LITERAL1
