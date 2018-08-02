@@ -23,10 +23,11 @@
  */
 
 /*!
- * \file 7SegementDisplayDemo.ino.ino
+ * \file 7SegementDisplayDemo.ino
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
- *      Source: https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
+ *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
+ *      Documentation:  https://erriez.github.io/ErriezRobotDyn4DigitDisplay
  */
 
 #include <Arduino.h>

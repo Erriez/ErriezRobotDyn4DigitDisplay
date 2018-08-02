@@ -26,7 +26,8 @@
  * \file RobotDyn4DigitDisplay.cpp
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
- *      Source: https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
+ *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
+ *      Documentation:  https://erriez.github.io/ErriezRobotDyn4DigitDisplay
  */
 
 #if (defined(__AVR__))

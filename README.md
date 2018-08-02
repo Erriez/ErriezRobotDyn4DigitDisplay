@@ -1,10 +1,10 @@
 # RobotDyn 4-digit LED display with TM1637 library for Arduino.
 
-[![Build Status](https://travis-ci.org/Erriez/ErriezErriezRobotDyn4DigitDisplay.svg?branch=master)](https://travis-ci.org/Erriez/ErriezErriezRobotDyn4DigitDisplay)
+[![Build Status](https://travis-ci.org/Erriez/ErriezRobotDyn4DigitDisplay.svg?branch=master)](https://travis-ci.org/Erriez/ErriezRobotDyn4DigitDisplay)
 
 This is a RobotDyn 4-digit 7-segment LED display library for Arduino. The PCB contains a two wire [TM1637 LED / button](https://github.com/Erriez/ErriezTM1637) controller.
 
-![ErriezRobotDyn4DigitDisplay](https://raw.githubusercontent.com/Erriez/ErriezErriezRobotDyn4DigitDisplay/master/extras/ErriezRobotDyn4DigitDisplay.png)
+![ErriezRobotDyn4DigitDisplay](https://raw.githubusercontent.com/Erriez/ErriezRobotDyn4DigitDisplay/master/extras/ErriezRobotDyn4DigitDisplay.png)
 
 **Note**: This library uses the double-dot to display a time. The LED dots per segment are not wired and cannot be controlled.
 
@@ -35,6 +35,13 @@ Other MCU's may work, but are not tested.
 ## Examples
 
 Examples | Erriez RobotDyn 4-digit display | [7SegementDisplayDemo](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/blob/master/examples/7SegementDisplayDemo/7SegementDisplayDemo.ino)
+
+
+## Documentation
+
+* [Online HTML](https://erriez.github.io/ErriezRobotDyn4DigitDisplay)
+* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/gh-pages/latex/ErriezRobotDyn4DigitDisplay.pdf)
+
 
 ## Usage
 
@@ -180,10 +187,6 @@ display.rawDigit(1, 0b00001001);
 display.rawDigit(2, 0b00001001);
 display.rawDigit(3, 0b00001111);
 ```
-
-## Documentation
-
-* [Doxygen online HTML](https://erriez.github.io/ErriezErriezRobotDyn4DigitDisplay)
 
 
 ## Library dependencies
