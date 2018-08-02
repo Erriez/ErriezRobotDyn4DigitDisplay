@@ -107,8 +107,8 @@ fi
 ################################################################################
 ##### Upload the documentation to the gh-pages branch of the repository.   #####
 # Only upload if Doxygen successfully created the documentation.
-# Check this by verifying that the html directory and the file html/index.html
-# both exist. This is a good indication that Doxygen did it's work.
+# Check this by verifying that the file index.html exist. This is a good
+# indication that Doxygen did it's work.
 if [ -f "index.html" ]; then
 
     echo 'Uploading documentation to the gh-pages branch...'
