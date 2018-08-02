@@ -34,7 +34,9 @@ Other MCU's may work, but are not tested.
 
 ## Examples
 
-Examples | Erriez RobotDyn 4-digit display | [7SegementDisplayDemo](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/blob/master/examples/7SegementDisplayDemo/7SegementDisplayDemo.ino)
+Arduino IDE | Examples | Erriez RobotDyn 4-digit display:
+
+* [7SegementDisplayDemo](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/blob/master/examples/7SegementDisplayDemo/7SegementDisplayDemo.ino)
 
 
 ## Documentation
