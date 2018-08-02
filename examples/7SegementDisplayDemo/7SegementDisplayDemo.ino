@@ -111,12 +111,14 @@ void setup()
     display.rawDigit(1, 0b01010000);
     display.rawDigit(2, 0b01010000);
     display.rawDigit(3, 0b00000000);
+    delay(DEMO_DELAY);
 
     // Display rect
     display.rawDigit(0, 0b00111001);
     display.rawDigit(1, 0b00001001);
     display.rawDigit(2, 0b00001001);
     display.rawDigit(3, 0b00001111);
+    delay(DEMO_DELAY);
 
     // Display positive and negative decimal numbers
     display.dec(0);         // _ _ _ 0
