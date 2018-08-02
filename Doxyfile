@@ -51,7 +51,7 @@ PROJECT_BRIEF          = "RobotDyn 4-digit display library for Arduino"
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = $(TRAVIS_BUILD_DIR)/extras/RobotDyn4DigitTimeDisplay.png
+PROJECT_LOGO           = $(TRAVIS_BUILD_DIR)/extras/ErriezRobotDyn4DigitDisplay.png
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
