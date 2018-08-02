@@ -17,7 +17,7 @@ __AUTHOR__="Erriez"
 #     - INPUT = $(TRAVIS_BUILD_DIR)/src \
 #               $(TRAVIS_BUILD_DIR)/README.md
 #   - OUTPUT_DIRECTORY =
-#   - HTML_OUTPUT =
+#   - HTML_OUTPUT = .
 # - Set global variables in .travis.yml:
 #   - DOXYFILE            : The Doxygen configuration file, for example: $TRAVIS_BUILD_DIR/Doxyfile
 #   - GH_REPO_NAME        : The name of the GitHub repository.
