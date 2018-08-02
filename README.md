@@ -42,7 +42,7 @@ Arduino IDE | Examples | Erriez RobotDyn 4-digit display:
 ## Documentation
 
 * [Online HTML](https://erriez.github.io/ErriezRobotDyn4DigitDisplay)
-* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/gh-pages/latex/ErriezRobotDyn4DigitDisplay.pdf)
+* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/gh-pages/latex/ErriezRobotDyn4DigitDisplayDoc.pdf)
 
 
 ## Usage
