@@ -2,6 +2,7 @@
 cmake/* linguist-vendored=true
 CMakeLists.txt linguist-vendored=true
 *.sh linguist-vendored=true
+*.bat linguist-vendored=true
 
 # Ignore the following files when creating a release
 /.gitattributes export-ignore
