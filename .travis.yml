@@ -23,10 +23,10 @@ cache:
    directories:
        - "~/.platformio"
 
-# Safelist
+# Blacklist
 branches:
-  only:
-    - master
+  except:
+    - gh-paghes
 
 # Environment variables
 env:
@@ -60,13 +60,16 @@ script:
   - chmod +x .auto-build.sh
   - ./.auto-build.sh
 
-# Build and deploy Doxygen documentation
+# Build and deploy Doxygen documentation only on push master branch
 after_success:
-  # Extract Doxygen binaries and set path
-  - wget -O - "${DOXYGEN_URL}" | tar xz -C ${TMPDIR-/tmp} ${DOXYGEN_VER}/bin/doxygen
-  - export PATH="${TMPDIR-/tmp}/${DOXYGEN_VER}/bin:$PATH"
+  - |
+    if [ "${TRAVIS_BRANCH}" == "master" ] ; then
+      # Extract Doxygen binaries and set path
+      wget -O - "${DOXYGEN_URL}" | tar xz -C ${TMPDIR-/tmp} ${DOXYGEN_VER}/bin/doxygen
+      export PATH="${TMPDIR-/tmp}/${DOXYGEN_VER}/bin:$PATH"
 
-  # Build Doxygen HTML and PDF
-  - cd $TRAVIS_BUILD_DIR
-  - chmod +x .deploy-doc.sh
-  - ./.deploy-doc.sh
+      # Build Doxygen HTML and PDF
+      cd $TRAVIS_BUILD_DIR
+      chmod +x .deploy-doc.sh
+      ./.deploy-doc.sh
+    fi
