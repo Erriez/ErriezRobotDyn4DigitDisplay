@@ -1,0 +1,230 @@
+\hypertarget{class_robot_dyn4_digit_display}{}\section{Robot\+Dyn4\+Digit\+Display Class Reference}
+\label{class_robot_dyn4_digit_display}\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+
+
+\hyperlink{class_robot_dyn4_digit_display}{Robot\+Dyn4\+Digit\+Display} class.  
+
+
+
+
+{\ttfamily \#include $<$Robot\+Dyn4\+Digit\+Display.\+h$>$}
+
+Inheritance diagram for Robot\+Dyn4\+Digit\+Display\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_robot_dyn4_digit_display}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_robot_dyn4_digit_display_ad4240ac103a42b221593fb0110aa8032}{Robot\+Dyn4\+Digit\+Display} (uint8\+\_\+t clk\+Pin, uint8\+\_\+t dio\+Pin, bool display\+On=true, uint8\+\_\+t brightness=5)
+\begin{DoxyCompactList}\small\item\em Constructor Robot\+Dyn 4-\/digit L\+ED display. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_a7f990760be0a939de2e97c323f93e91a}{raw\+Digit} (uint8\+\_\+t \hyperlink{class_robot_dyn4_digit_display_aa0a682be1d560c1c93f547539b971806}{digit}, uint8\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Display raw digit. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_aa0a682be1d560c1c93f547539b971806}{digit} (uint8\+\_\+t digit, uint8\+\_\+t value)
+\begin{DoxyCompactList}\small\item\em Display a single digit. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_a1906505c29cfcb7baa7f4b9162301f6e}{double\+Dots} (bool on)
+\begin{DoxyCompactList}\small\item\em Display double time dots. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_aa7382284633fff676ae746f0270024bd}{time} (uint8\+\_\+t hour, uint8\+\_\+t minute, bool double\+Dots\+On=true, bool pad\+Hours=true)
+\begin{DoxyCompactList}\small\item\em Display time. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_af99a7b39a0e4dc6bfa8d1fef6a835651}{dec} (int value, uint8\+\_\+t pad=1)
+\begin{DoxyCompactList}\small\item\em Display decimal value. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_a3f1e8418ba6d4b3be5a10296213f099f}{hex} (unsigned int value, uint8\+\_\+t pad=4)
+\begin{DoxyCompactList}\small\item\em Display hexadecimal value with optional padding. \end{DoxyCompactList}\item 
+void \hyperlink{class_robot_dyn4_digit_display_a3b7b4da4d448c85358f5dad20cd1dbd6}{overflow} ()\hypertarget{class_robot_dyn4_digit_display_a3b7b4da4d448c85358f5dad20cd1dbd6}{}\label{class_robot_dyn4_digit_display_a3b7b4da4d448c85358f5dad20cd1dbd6}
+
+\begin{DoxyCompactList}\small\item\em Display overflow with four minus digits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_robot_dyn4_digit_display}{Robot\+Dyn4\+Digit\+Display} class. 
+
+This class 
+
+Definition at line 52 of file Robot\+Dyn4\+Digit\+Display.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{Robot\+Dyn4\+Digit\+Display(uint8\+\_\+t clk\+Pin, uint8\+\_\+t dio\+Pin, bool display\+On=true, uint8\+\_\+t brightness=5)}{RobotDyn4DigitDisplay(uint8_t clkPin, uint8_t dioPin, bool displayOn=true, uint8_t brightness=5)}}]{\setlength{\rightskip}{0pt plus 5cm}Robot\+Dyn4\+Digit\+Display\+::\+Robot\+Dyn4\+Digit\+Display (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{clk\+Pin, }
+\item[{uint8\+\_\+t}]{dio\+Pin, }
+\item[{bool}]{display\+On = {\ttfamily true}, }
+\item[{uint8\+\_\+t}]{brightness = {\ttfamily 5}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_ad4240ac103a42b221593fb0110aa8032}{}\label{class_robot_dyn4_digit_display_ad4240ac103a42b221593fb0110aa8032}
+
+
+Constructor Robot\+Dyn 4-\/digit L\+ED display. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em clk\+Pin} & Clock pins. \\
+\hline
+{\em dio\+Pin} & Bi-\/directional data pin. \\
+\hline
+{\em display\+On} & Optional\+: Turn display on. Default\+: true \\
+\hline
+{\em brightness} & Optional\+: Set brightness 0..7 Default\+: 5. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 84 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!dec@{dec}}
+\index{dec@{dec}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{dec(int value, uint8\+\_\+t pad=1)}{dec(int value, uint8_t pad=1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robot\+Dyn4\+Digit\+Display\+::dec (
+\begin{DoxyParamCaption}
+\item[{int}]{value, }
+\item[{uint8\+\_\+t}]{pad = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_af99a7b39a0e4dc6bfa8d1fef6a835651}{}\label{class_robot_dyn4_digit_display_af99a7b39a0e4dc6bfa8d1fef6a835651}
+
+
+Display decimal value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & 0000..9999\+: Decimal value. \\
+\hline
+{\em pad} & 0..4\+: Optional\+: Number of digits to pad with a zero. Default\+: 1. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 170 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!digit@{digit}}
+\index{digit@{digit}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{digit(uint8\+\_\+t digit, uint8\+\_\+t value)}{digit(uint8_t digit, uint8_t value)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robot\+Dyn4\+Digit\+Display\+::digit (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{digit, }
+\item[{uint8\+\_\+t}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_aa0a682be1d560c1c93f547539b971806}{}\label{class_robot_dyn4_digit_display_aa0a682be1d560c1c93f547539b971806}
+
+
+Display a single digit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em digit} & Digit number 0 (left digit) ... 3 (right digit) \\
+\hline
+{\em value} & Digit value 0..9 or 0x00..0x0F. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 113 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!double\+Dots@{double\+Dots}}
+\index{double\+Dots@{double\+Dots}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{double\+Dots(bool on)}{doubleDots(bool on)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robot\+Dyn4\+Digit\+Display\+::double\+Dots (
+\begin{DoxyParamCaption}
+\item[{bool}]{on}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_a1906505c29cfcb7baa7f4b9162301f6e}{}\label{class_robot_dyn4_digit_display_a1906505c29cfcb7baa7f4b9162301f6e}
+
+
+Display double time dots. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em on} & true\+: Turn double time dots on.~\newline
+ false\+: Turn double time dots off. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 126 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!hex@{hex}}
+\index{hex@{hex}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{hex(unsigned int value, uint8\+\_\+t pad=4)}{hex(unsigned int value, uint8_t pad=4)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robot\+Dyn4\+Digit\+Display\+::hex (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{value, }
+\item[{uint8\+\_\+t}]{pad = {\ttfamily 4}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_a3f1e8418ba6d4b3be5a10296213f099f}{}\label{class_robot_dyn4_digit_display_a3f1e8418ba6d4b3be5a10296213f099f}
+
+
+Display hexadecimal value with optional padding. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & 0x0000..0x\+F\+F\+FF\+: Hexadecimal value \\
+\hline
+{\em pad} & 0..4\+: Optional\+: Number of digits to pad with a zero. Default\+: 4. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 224 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!raw\+Digit@{raw\+Digit}}
+\index{raw\+Digit@{raw\+Digit}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{raw\+Digit(uint8\+\_\+t digit, uint8\+\_\+t value)}{rawDigit(uint8_t digit, uint8_t value)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robot\+Dyn4\+Digit\+Display\+::raw\+Digit (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{digit, }
+\item[{uint8\+\_\+t}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_a7f990760be0a939de2e97c323f93e91a}{}\label{class_robot_dyn4_digit_display_a7f990760be0a939de2e97c323f93e91a}
+
+
+Display raw digit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em digit} & Digit number 0 (left digit) .. 3 (right digit) \\
+\hline
+{\em value} & L\+ED segments \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 98 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+\index{Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}!time@{time}}
+\index{time@{time}!Robot\+Dyn4\+Digit\+Display@{Robot\+Dyn4\+Digit\+Display}}
+\subsubsection[{\texorpdfstring{time(uint8\+\_\+t hour, uint8\+\_\+t minute, bool double\+Dots\+On=true, bool pad\+Hours=true)}{time(uint8_t hour, uint8_t minute, bool doubleDotsOn=true, bool padHours=true)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robot\+Dyn4\+Digit\+Display\+::time (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{hour, }
+\item[{uint8\+\_\+t}]{minute, }
+\item[{bool}]{double\+Dots\+On = {\ttfamily true}, }
+\item[{bool}]{pad\+Hours = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_robot_dyn4_digit_display_aa7382284633fff676ae746f0270024bd}{}\label{class_robot_dyn4_digit_display_aa7382284633fff676ae746f0270024bd}
+
+
+Display time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hour} & 0..59\+: Hours \\
+\hline
+{\em minute} & 0..59\+: Minutes \\
+\hline
+{\em double\+Dots\+On} & true\+: Display double time dots. (Default)~\newline
+ false\+: Turn double time dots off. \\
+\hline
+{\em pad\+Hours} & true\+: Display first digit as 0 when hours $<$ 10. false\+: Turn first digit off when hours $<$ 10. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 149 of file Robot\+Dyn4\+Digit\+Display.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_robot_dyn4_digit_display_8h}{Robot\+Dyn4\+Digit\+Display.\+h}\item 
+\hyperlink{_robot_dyn4_digit_display_8cpp}{Robot\+Dyn4\+Digit\+Display.\+cpp}\end{DoxyCompactItemize}
