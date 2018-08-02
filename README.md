@@ -8,6 +8,7 @@ This is a RobotDyn 4-digit 7-segment LED display library for Arduino. The PCB co
 
 **Note**: This library uses the double-dot to display a time. The LED dots per segment are not wired and cannot be controlled.
 
+
 ## Library features
 
 - Set brightness (0..7)
@@ -17,6 +18,7 @@ This is a RobotDyn 4-digit 7-segment LED display library for Arduino. The PCB co
 - Display time (hours:minutes)
 - Display decimal value (-999..9999) with optional padding
 - Display hexadecimal value (0...0xFFFF) with optional padding
+
 
 ## Hardware
 
@@ -42,7 +44,7 @@ Arduino IDE | Examples | Erriez RobotDyn 4-digit display:
 ## Documentation
 
 * [Online HTML](https://erriez.github.io/ErriezRobotDyn4DigitDisplay)
-* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/gh-pages/latex/ErriezRobotDyn4DigitDisplayDoc.pdf)
+* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/gh-pages/latex/ErriezRobotDyn4DigitDisplay.pdf)
 
 
 ## Usage

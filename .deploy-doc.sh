@@ -95,7 +95,7 @@ if [ -d "latex" ] && [ -f "latex/Makefile" ]; then
     # Cleanup
     rm -f *.ps *.dvi *.aux *.toc *.idx *.ind *.ilg *.out *.brf *.blg *.bbl
     # Rename output PDF file
-    mv refman.pdf ${GH_REPO_NAME}Doc.pdf
+    mv refman.pdf ${GH_REPO_NAME}.pdf
     cd ..
 else
     echo '' >&2
