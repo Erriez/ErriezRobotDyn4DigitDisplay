@@ -23,7 +23,6 @@
  */
 
 /*!
- * \file Erriez7SegementDisplayDemo.cpp
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
