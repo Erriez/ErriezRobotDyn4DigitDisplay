@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['overflow',['overflow',['../class_robot_dyn4_digit_display.html#a3b7b4da4d448c85358f5dad20cd1dbd6',1,'RobotDyn4DigitDisplay']]]
+  ['hex',['hex',['../class_robot_dyn4_digit_display.html#a3f1e8418ba6d4b3be5a10296213f099f',1,'RobotDyn4DigitDisplay']]]
 ];
