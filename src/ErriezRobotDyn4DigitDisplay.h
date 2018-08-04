@@ -23,18 +23,18 @@
  */
 
 /*!
- * \file RobotDyn4DigitDisplay.h
+ * \file ErriezErriezRobotDyn4DigitDisplay.h
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
  *      Documentation:  https://erriez.github.io/ErriezRobotDyn4DigitDisplay
  */
 
-#ifndef ROBOT_DYN_4_DIGIT_DISPLAY_H__
-#define ROBOT_DYN_4_DIGIT_DISPLAY_H__
+#ifndef ERRIEZ_ROBOT_DYN_4_DIGIT_DISPLAY_H_
+#define ERRIEZ_ROBOT_DYN_4_DIGIT_DISPLAY_H_
 
 #include <Arduino.h>
-#include <TM1637.h>
+#include <ErriezTM1637.h>
 
 //! Number of display digits
 #define ROBOT_DYN_4DIGIT_DISPLAY_NUM_DIGITS     4
@@ -70,4 +70,4 @@ private:
     uint8_t displayBuffer[ROBOT_DYN_4DIGIT_DISPLAY_NUM_DIGITS];
 };
 
-#endif // ROBOT_DYN_4_DIGIT_DISPLAY_H__
+#endif // ERRIEZ_ROBOT_DYN_4_DIGIT_DISPLAY_H_

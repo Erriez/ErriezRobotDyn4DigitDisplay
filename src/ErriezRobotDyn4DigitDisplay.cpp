@@ -23,7 +23,7 @@
  */
 
 /*!
- * \file RobotDyn4DigitDisplay.cpp
+ * \file ErriezRobotDyn4DigitDisplay.cpp
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
@@ -36,7 +36,7 @@
 #include <pgmspace.h>
 #endif
 
-#include "RobotDyn4DigitDisplay.h"
+#include "ErriezRobotDyn4DigitDisplay.h"
 
 /* 7-segment bits:
    - 0 -

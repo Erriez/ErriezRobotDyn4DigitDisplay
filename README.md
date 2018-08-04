@@ -52,7 +52,7 @@ Arduino IDE | Examples | Erriez RobotDyn 4-digit display:
 **Initialization**
 
 ```c++
-#include <RobotDyn4DigitDisplay.h>
+#include <ErriezRobotDyn4DigitDisplay.h>
 
 // Connect display pins to the Arduino DIGITAL pins
 #if defined(ARDUINO_ARCH_AVR)

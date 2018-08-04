@@ -23,7 +23,7 @@
  */
 
 /*!
- * \file 7SegementDisplayDemo.cpp
+ * \file Erriez7SegementDisplayDemo.cpp
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
@@ -31,7 +31,7 @@
  */
 
 #include <Arduino.h>
-#include <RobotDyn4DigitDisplay.h>  // ErriezRobotDyn4DigitDisplay library
+#include <ErriezRobotDyn4DigitDisplay.h>
 
 // Connect display pins to the Arduino DIGITAL pins
 #if defined(ARDUINO_ARCH_AVR)

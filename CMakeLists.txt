@@ -54,17 +54,17 @@ include_directories(${TIMESTAMP_SRC_DIR})
 generate_arduino_library(
         ${PROJECT_NAME}Lib
         SRCS
-            ${LIB_SRC_DIR}/RobotDyn4DigitDisplay.cpp
+            ${LIB_SRC_DIR}/ErriezRobotDyn4DigitDisplay.cpp
         HDRS
-            ${LIB_SRC_DIR}/RobotDyn4DigitDisplay.h
+            ${LIB_SRC_DIR}/ErriezRobotDyn4DigitDisplay.h
 )
 
 generate_arduino_library(
         TM1637Lib
         SRCS
-            ${LIB_TM1637_SRC_DIR}/TM1637.cpp
+            ${LIB_TM1637_SRC_DIR}/ErriezTM1637.cpp
         HDRS
-            ${LIB_TM1637_SRC_DIR}/TM1637.h
+            ${LIB_TM1637_SRC_DIR}/ErriezTM1637.h
 )
 
 # Configure project
