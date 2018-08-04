@@ -29,7 +29,6 @@
  *      Documentation:  https://erriez.github.io/ErriezRobotDyn4DigitDisplay
  */
 
-#include <Arduino.h>
 #include <ErriezRobotDyn4DigitDisplay.h>
 
 // Connect display pins to the Arduino DIGITAL pins
