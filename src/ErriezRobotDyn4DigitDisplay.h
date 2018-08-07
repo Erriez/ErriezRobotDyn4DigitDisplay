@@ -23,7 +23,7 @@
  */
 
 /*!
- * \file ErriezErriezRobotDyn4DigitDisplay.h
+ * \file ErriezRobotDyn4DigitDisplay.h
  * \brief RobotDyn4DigitDisplay library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
