@@ -38,13 +38,13 @@ Other MCU's may work, but are not tested.
 
 Arduino IDE | Examples | Erriez RobotDyn 4-digit display:
 
-* [7SegementDisplayDemo](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/blob/master/examples/7SegementDisplayDemo/7SegementDisplayDemo.ino)
+* [Erriez7SegementDisplayDemo](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/blob/master/examples/Erriez7SegementDisplayDemo/Erriez7SegementDisplayDemo.ino)
 
 
 ## Documentation
 
 * [Online HTML](https://erriez.github.io/ErriezRobotDyn4DigitDisplay)
-* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/gh-pages/latex/ErriezRobotDyn4DigitDisplay.pdf)
+* [Download PDF](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay/raw/master/ErriezRobotDyn4DigitDisplay.pdf)
 
 
 ## Usage

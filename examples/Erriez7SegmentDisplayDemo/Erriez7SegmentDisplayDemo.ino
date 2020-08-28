@@ -32,7 +32,7 @@
 #include <ErriezRobotDyn4DigitDisplay.h>
 
 // Connect display pins to the Arduino DIGITAL pins
-#if defined(ARDUINO_ARCH_AVR)
+#if defined(ARDUINO_ARCH_AVR) || defined(ARDUINO_SAM_DUE)
 #define TM1637_CLK_PIN      2
 #define TM1637_DIO_PIN      3
 #elif defined(ARDUINO_ESP8266_WEMOS_D1MINI) || defined(ESP8266_WEMOS_D1MINI) || defined(ARDUINO_ESP8266_NODEMCU)
